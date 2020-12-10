@@ -1,0 +1,41 @@
+@import url(layout.css);
+body {
+	margin: 0px;
+	background-color: #DDDDDD;/*#EDECF1;*/
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 0px;
+	font-size: 0.75em;
+}
+/* Styles for DIV tags */
+#navigation {
+	margin-left: -6px;
+	background-color: #DCDBE0;
+}
+html>body #navigation {
+	overflow: hidden;
+}
+
+
+/* Styles for Navigation */
+#navigation ul {
+	list-style-type: none;
+    text-align:left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+}
+#navigation a {
+	margin: 0 1px;
+	padding: 7px;
+	display: block;
+	border: 1px solid #DCDBE0;
+	text-decoration: none;
+	color: #000;
+}
+#navigation a:hover {
+	background-color: #BBBBBB;
+	border: 1px solid #BBBBBB;
+}
